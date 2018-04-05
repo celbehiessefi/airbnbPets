@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.example.hssin.airbnbpets.MainActivity"
+    android:icon="@mipmap/ic_launcher"
+>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        app:srcCompat="@drawable/ch" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/button_login"
+        android:layout_alignStart="@+id/button_login"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="70dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Username"
+        android:textColor="#FFFFFF"
+
+        android:inputType="textPersonName"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="52dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="password"
+        android:textColor="#FFFFFF"
+        android:inputType="numberPassword"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/button_login"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/background_login"
+        android:text="Login"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:clickable="true"
+
+        />
+
+    <Button
+        android:id="@+id/button_singUp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button_login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button_login"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/background_signup"
+        android:text="sing up"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:clickable="true"/>
+
+</RelativeLayout>

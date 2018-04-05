@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">airbnbPets</string>
+    <string name="app">Pets care</string>
+    <string name="title_activity_sign_up">signUp</string>
+    <string name="title_activity_signup_choice">signup_choice</string>
+    <string name="title_activity_profile">activity_profile</string>
+</resources>
